@@ -36,3 +36,180 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* src/App.css */
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  color: #333;
+}
+
+
+/* src/App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ffefd5, #ffe4e1); /* Soft gradient background */
+  font-family: 'Playfair Display', serif;
+}
+
+.App {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h2, h3 {
+  color: #b22222; /* Firebrick color for headings */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+/* src/App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ffefd5, #ffe4e1); /* Soft gradient background */
+  font-family: 'Playfair Display', serif;
+}
+
+.App {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #b22222; /* Firebrick color */
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .App {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+}
+
+
+/* src/App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ffefd5, #ffe4e1); /* Soft gradient background */
+  font-family: 'Playfair Display', serif;
+}
+
+.App {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+h2 {
+  color: #b22222; /* Firebrick color */
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1024px) {
+  .App {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .App {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+}
+

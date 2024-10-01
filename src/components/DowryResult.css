@@ -1,0 +1,75 @@
+/* src/components/DowryResult.css */
+
+.dowry-result {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff8dc; /* Cornsilk background */
+    border: 3px solid #ff6347; /* Tomato border */
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    animation: slideIn 0.5s ease-out;
+  }
+  
+  .dowry-result h3 {
+    color: #8b0000; /* Dark red */
+    margin-bottom: 15px;
+    font-size: 28px;
+  }
+  
+  .dowry-result p {
+    font-size: 24px;
+    color: #b22222; /* Firebrick */
+    font-weight: bold;
+  }
+  
+  /* Decorative Elements */
+  
+  .dowry-result::before {
+    content: '🎉';
+    font-size: 40px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .dowry-result::after {
+    content: '🎊';
+    font-size: 40px;
+    position: absolute;
+    bottom: -20px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  
+  /* Slide-In Animation */
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  
+  @media (max-width: 768px) {
+    .dowry-result h3 {
+      font-size: 24px;
+    }
+  
+    .dowry-result p {
+      font-size: 20px;
+    }
+  
+    .dowry-result::before,
+    .dowry-result::after {
+      font-size: 30px;
+    }
+  }
+  
